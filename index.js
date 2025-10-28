@@ -19,3 +19,7 @@ db.sequelize.sync()
         console.log('Server started');
     })
 })
+
+.catch((err)=>{
+    console.log(err);
+})
